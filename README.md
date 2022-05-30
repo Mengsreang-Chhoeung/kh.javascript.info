@@ -1,39 +1,40 @@
-# The Modern JavaScript Tutorial
+# មេរៀនភាសា JavaScript បែបទំនើប
 
-This repository hosts the English content of the Modern JavaScript Tutorial, published in [https://javascript.info](https://javascript.info).
+Repository មួយនេះត្រូវបាន host ជាអត្ថបទដែលសរសេរជាភាសាអង់គ្លេសនៃមេរៀនភាសា JavaScript បែបទំនើប, ត្រូវបានចុះផ្សាយនៅក្នុង [https://javascript.info](https://javascript.info).
 
-## Translations
+## ការបកប្រែ
 
-We'd like to make the tutorial available in many languages. Please help us to translate.
+ពួកយើងចង់ធ្វើឱ្យការមេរៀនមានជាភាសាជាច្រើន។ សូមជួយពួកយើងក្នុងការបកប្រែផង។
 
-See <https://javascript.info/translate> for the details.
+មើលក្នុង <https://javascript.info/translate> សម្រាប់ព័ត៌មានលម្អិត.
 
-## Contributions
+## ការរួមចំណែក
 
-We'd also like to collaborate on the tutorial with other people.
+ពូកយើងក៏ចង់សហការលើការធ្វើមេរៀនជាមួយមនុស្សផ្សេងៗទៀតផងដែរ។
 
-Something's wrong? A topic is missing? Explain it to people, add as PR 👏
+មាន​អ្វី​ខុស? ប្រធានបទនៅខ្វះ? ពន្យល់វាដល់អ្នករាល់គ្នា ហើយបន្ថែមជាមួយនឹង PR👏
 
-**You can edit the text in any editor.** The tutorial uses enhanced "markdown" format, easy to grasp. And if you want to see how it looks on-site, there's a server to run the tutorial locally at <https://github.com/javascript-tutorial/server>.
+**អ្នកអាចកែសម្រួលអត្ថបទនៅក្នុង editor ណាមួយ។** មេរៀនគឺប្រើទម្រង់ "markdown" ដែលបង្កនូវភាពងាយស្រួលនឹងងាយយល់។ ហើយប្រសិនបើអ្នកចង់ឃើញពីរបៀបដែលវាដំណើរការនៅលើគេហទំព័រ គឺយើងនឹងមានម៉ាស៊ីនមេដើម្បីដំណើរការនូវមេរៀននេះដូចគ្នាដែលនៅទីនេះ <https://github.com/javascript-tutorial/server>.
 
-The list of contributors is available at <https://javascript.info/about#contributors>.
+បញ្ជីអ្នករួមចំណែកមាននៅ <https://javascript.info/about#contributors>.
 
-## Structure
+## រចនាសម្ព័ន្ធ
 
-Every chapter, article or a task has its folder.
+គ្រប់ជំពូក អត្ថបទ ឬកិច្ចការមានថតឯកសាររបស់វា។
 
-The folder is named like `N-url`, where `N` is a number for the sorting purposes and `url` is the URL part with title of the material.
+ថតឯកសារ​ត្រូវ​បាន​គេ​ដាក់​ឈ្មោះ​ដូច​ជា `N-url` ដែល `N` ជា​លេខ​សម្រាប់​គោល​បំណង​តម្រៀប ហើយ `url` ជា​ផ្នែក URL ដែល​មាន​ចំណងជើង​នៃ​សម្ភារៈ។
 
-The type of the material is defined by the file inside the folder:
+ប្រភេទនៃសម្ភារៈត្រូវបានកំណត់ដោយឯកសារនៅក្នុងថតឯកសារ៖
 
-  - `index.md` stands for a chapter
-  - `article.md` stands for an article
-  - `task.md` stands for a task (solution must be provided in `solution.md` file as well)
+- `index.md` តំណាងឱ្យជំពូកមួយ។
+- `article.md` តំណាង​ឱ្យ​អត្ថបទ​មួយ។
+- `task.md` តំណាង​ឱ្យ​កិច្ចការ​មួយ (ដំណោះស្រាយ​ត្រូវ​តែ​មាន​ក្នុង​ឯកសារ `solution.md` ផងដែរ)
 
-Each of these files starts from the `# Main header`.
+ឯកសារទាំងនេះនីមួយៗចាប់ផ្តើមពី `# Main header`។
 
-It's very easy to add something new.
+វាងាយស្រួលណាស់ក្នុងការបន្ថែមអ្វីដែលថ្មី។
 
----  
+---
+
 ♥  
-Ilya Kantor @iliakan
+Mengsreang-Chhoeung @mengsreang_dev
