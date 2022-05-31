@@ -10,25 +10,25 @@ _JavaScript_ ត្រូវបានបង្កើតដំបូងដើម�
 
 Scripts ត្រូវបានផ្តល់ និងប្រតិបត្តិជាអត្ថបទធម្មតា។ ពួកគេមិនត្រូវការការរៀបចំជាពិសេស ឬការចងក្រងដើម្បីដំណើរការទេ។
 
-In this aspect, JavaScript is very different from another language called [Java](<https://en.wikipedia.org/wiki/Java_(programming_language)>).
+នៅក្នុងទិដ្ឋភាពនេះ JavaScript គឺខុសគ្នាយ៉ាងខ្លាំងពីភាសាផ្សេងទៀតហៅថា [Java](<https://en.wikipedia.org/wiki/Java_(programming_language)>).
 
-```smart header="Why is it called <u>Java</u>Script?"
-When JavaScript was created, it initially had another name: "LiveScript". But Java was very popular at that time, so it was decided that positioning a new language as a "younger brother" of Java would help.
+```smart header="ហេតុអ្វីបានជាវាត្រូវបានហៅថា <u>Java</u>Script?"
+នៅពេលដែល JavaScript ត្រូវបានបង្កើត ដំបូងមានឈ្មោះផ្សេងទៀត: "LiveScript" ។ ប៉ុន្តែ Java មានប្រជាប្រិយភាពខ្លាំងនៅពេលនោះ ដូច្នេះវាត្រូវបានគេសម្រេចចិត្តថាដាក់ឈ្មោះភាសាថ្មីជា "ប្អូនប្រុស" របស់ Java។
 
-But as it evolved, JavaScript became a fully independent language with its own specification called [ECMAScript](http://en.wikipedia.org/wiki/ECMAScript), and now it has no relation to Java at all.
+ប៉ុន្តែនៅពេលដែលវាវិវឌ្ឍ ភាសា JavaScript បានក្លាយជាភាសាឯករាជ្យពេញលេញជាមួយនឹងលក្ខណៈជាក់លាក់របស់វាហៅថា [ECMAScript](http://en.wikipedia.org/wiki/ECMAScript), ហើយ​ឥឡូវ​នេះ​វា​មិន​មាន​ទំនាក់​ទំនង​ជាមួយនឹងភាសា Java ទាល់​តែ​សោះ។
 ```
 
-Today, JavaScript can execute not only in the browser, but also on the server, or actually on any device that has a special program called [the JavaScript engine](https://en.wikipedia.org/wiki/JavaScript_engine).
+សព្វ​ថ្ងៃ JavaScript អាច​ប្រតិបត្តិ​មិន​ត្រឹម​តែ​នៅ​ក្នុង​ browser ប៉ុណ្ណោះ​ទេ ប៉ុន្តែ​ក៏​នៅ​លើ server ឬ​​ទៅ​លើ​ឧបករណ៍​ណា​មួយ​ដែល​មាន​កម្មវិធី​ពិសេស​ដែល​គេ​ហៅ​ថា [the JavaScript engine](https://en.wikipedia.org/wiki/JavaScript_engine).
 
-The browser has an embedded engine sometimes called a "JavaScript virtual machine".
+Browser មាននូវម៉ាស៊ីនបង្កប់(embedded engine) ដែលជួនកាលអាចហៅថា "JavaScript virtual machine"។
 
-Different engines have different "codenames". For example:
+ម៉ាស៊ីនផ្សេងគ្នាមាន "កូដឈ្មោះ" ផ្សេងគ្នា។ ឧទាហរណ៍:
 
-- [V8](<https://en.wikipedia.org/wiki/V8_(JavaScript_engine)>) -- in Chrome, Opera and Edge.
-- [SpiderMonkey](https://en.wikipedia.org/wiki/SpiderMonkey) -- in Firefox.
-- ...There are other codenames like "Chakra" for IE, "JavaScriptCore", "Nitro" and "SquirrelFish" for Safari, etc.
+- [V8](<https://en.wikipedia.org/wiki/V8_(JavaScript_engine)>) -- នៅក្នុង Chrome, Opera and Edge.
+- [SpiderMonkey](https://en.wikipedia.org/wiki/SpiderMonkey) -- នៅក្នុង Firefox.
+- ...មានកូដឈ្មោះផ្សេងទៀតដូចជា "Chakra" សម្រាប់ IE, "JavaScriptCore", "Nitro" និង "SquirrelFish" សម្រាប់ Safari ។ល។
 
-The terms above are good to remember because they are used in developer articles on the internet. We'll use them too. For instance, if "a feature X is supported by V8", then it probably works in Chrome, Opera and Edge.
+ពាក្យខាងលើគឺល្អក្នុងការចងចាំ ព្រោះវាត្រូវបានប្រើនៅក្នុងអត្ថបទអ្នកអភិវឌ្ឍន៍នៅលើអ៊ីនធឺណិត។ យើងនឹងប្រើពួកវាផងដែរ។ ឧទាហរណ៍ ប្រសិនបើ "មុខងារ X ត្រូវបានគាំទ្រដោយ V8" នោះវាប្រហែលជាដំណើរការនៅក្នុង Chrome, Opera និង Edge ។
 
 ```smart header="How do engines work?"
 
