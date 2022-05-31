@@ -1,3 +1,3 @@
-# An introduction
+# សេចក្តីចាប់ផ្តើម
 
-About the JavaScript language and the environment to develop with it.
+អំពីភាសា JavaScript និងការរៀបចំដើម្បីអភិវឌ្ឍជាមួយវា។
