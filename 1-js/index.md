@@ -1,6 +1,5 @@
-# The JavaScript language
+# ភាសា JavaScript
 
-Here we learn JavaScript, starting from scratch and go on to advanced concepts like OOP.
+នៅទីនេះយើងរៀន JavaScript ដោយចាប់ផ្តើមពីដំបូង ហើយបន្តទៅគោលគំនិតកម្រិតខ្ពស់ដូចជា OOP។
 
-We concentrate on the language itself here, with the minimum of environment-specific notes.
-
+យើងផ្តោតលើភាសាខ្លួនឯងនៅទីនេះ ដោយមានអប្បបរមានៃកំណត់ចំណាំជាក់លាក់អំពីបរិស្ថាន(environment-specific)។
