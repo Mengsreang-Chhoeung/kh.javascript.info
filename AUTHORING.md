@@ -1,37 +1,38 @@
 
-# Authoring
+# អ្នកនិពន្ធ
 
-This describes important stuff about authoring new articles of the tutorial.
+ការពិពណ៌នានេះគឺពណ៌នាអំពីរឿងសំខាន់ៗអំពីការសរសេរអត្ថបទថ្មីនៃមេរៀន។
 
-## Internal links
+## តំណភ្ជាប់ខាងក្នុង
 
-All tutorial links should start from the root, not including the domain.
+តំណភ្ជាប់មេរៀនទាំងអស់គួរតែចាប់ផ្តើមពី root ដោយមិនរាប់បញ្ចូលឈ្មោះកម្មសិទ្ធិ។
 
-✅ OK:
-
-```md
-We'll cover that in the chapter [about functions](/function-basics)
-```
-
-❌ Not ok:
+✅ ត្រឹមត្រូវ:
 
 ```md
-We'll cover that in the chapter [about functions](https://javascript.info/function-basics)
+យើងនឹងរៀបរាប់វានៅក្នុងជំពូក [about functions](/function-basics)
 ```
 
-Also, to reference a chapter, there's a special "info:" scheme, like this:
+❌ មិនត្រឹមត្រូវ:
 
 ```md
-We'll cover that in the chapter <info:function-basics>.
+យើងនឹងរៀបរាប់វានៅក្នុងជំពូក [about functions](https://javascript.info/function-basics)
 ```
 
-Becomes:
+ដូចគ្នានេះដែរ ដើម្បីជាសេចក្តីយោងសម្រាប់ជំពូកមួយៗ គឺមានគ្រោងការណ៍ "info:" ពិសេស ដូចនេះ៖
+
+```md
+យើងនឹងរៀបរាប់វានៅក្នុងជំពូក <info:function-basics>.
+```
+
+ក្លាយជា:
 ```html
-We'll cover that in the chapter <a href="/function-basics">Function basics</a>.
+យើងនឹងរៀបរាប់វានៅក្នុងជំពូក <a href="/function-basics">Function basics</a>.
 ```
 
-The title is auto-inserted from the referenced article. That has the benefit of keeping the right title if the article gets renamed.
+ចំណងជើងត្រូវបានបញ្ចូលដោយស្វ័យប្រវត្តិពីអត្ថបទដែលបានយោង។ វាមានអត្ថប្រយោជន៍ក្នុងការរក្សាចំណងជើងត្រឹមត្រូវ ប្រសិនបើអត្ថបទត្រូវបានប្តូរឈ្មោះ។
 
-## TODO
+## ធ្វើ
 
-Ask @iliakan to for more details.
+♥  
+Mengsreang-Chhoeung @mengsreang_dev
